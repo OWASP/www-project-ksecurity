@@ -1,8 +1,8 @@
 ### Ksecurity Information
 * [Incubator Project](#)
-* [Type of Project](#)
+* [Security](#)
 * [Version 1.0](#)
-* [Builder](#)
+* [João Lopes](#)
 * [Breaker](#)
 
 ### Downloads or Social Links
