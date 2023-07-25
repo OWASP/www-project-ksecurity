@@ -32,9 +32,9 @@ OWASP Foundation Web Respository
 Please note that executing any project in root mode requires caution as it grants privileged access to the system. Carefully review the project's code and understand its actions before running it in root mode. Ensure that the project is from a trusted source and that you understand its functionalities before running it in a production environment.
 
 ![owasp_ksecurity](
-https://raw.githubusercontent.com/sombo20/www-project-ksecurity/main/assets/images/main.png)
+https://raw.githubusercontent.com/OWASP/www-project-ksecurity/main/assets/images/main.png)
 
 
 ![owasp_ksecurity](
-https://raw.githubusercontent.com/sombo20/www-project-ksecurity/main/assets/images/end.png)
+https://raw.githubusercontent.com/OWASP/www-project-ksecurity/main/assets/images/end.png)
 
