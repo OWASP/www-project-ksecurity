@@ -1,17 +1,12 @@
 ### Ksecurity Information
-* [Incubator Project](#)
+* [Production Project](#)
 * [Security](#)
 * [Version 1.0](#)
-* [João Lopes](#)
-* [Breaker](#)
+* [João Lopes or Keidi Francis](#)
+
 
 ### Downloads or Social Links
-* [Download](#)
-* [Meetup](#)
+* [Download](https://www.facebook.com/Pambosec)
 
-### Code Repository
-* [repo](#)
 
-### Change Log
-* [changes](#)
 
