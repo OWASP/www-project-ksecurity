@@ -76,7 +76,7 @@ if __name__ == '__main__':
     print(f"{Fore.CYAN}1 - Nginx")
     print(f"{Fore.CYAN}2 - Apache")
 
-    server_number = input(f"{Fore.YELLOW}Enter the desired server number: ")
+    serverNumber = input(f"{Fore.YELLOW}Enter the desired server number: ")
 
     if serverNumber == "1":
         server("nginx")
