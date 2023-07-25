@@ -7,13 +7,13 @@ from colorama import Fore
 
 time.sleep(10)
 
-def disponivel():
+def available():
     while True:
         try:
            target = "http://localhost"
            response = requests.get(target)
            print(Fore.BLUE+"-----------------------------------------------------------------------------")
-           print("\t\t\tSITE AVAILABILITY")
+           print("\t\t\tSITE AVAILABLE")
     
            if requests.status_codes == 500:
                print(f"\t\t\t\n {target} is unavailable")

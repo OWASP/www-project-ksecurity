@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-# Plugin Pro Ksecurity e um novo plugin de monitoramento de ataques ciberneticos no servidor
-# Apache, monitora os seguintes diretorios e alerta de acesso.
+# Plugin Pro Ksecurity is a new cyber attack monitoring plugin for Apache and Nginx servers.
+# It monitors the following directories and alerts on access: /etc/nginx and /etc/apache.
 
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
@@ -10,9 +10,8 @@ import multiprocessing
 import os.path
 import time
 
-diretorio_monitorado = '/etc/apache2'
 
-def monitor():
+def monitor(server_name):
     class MonitorAlteracoes(FileSystemEventHandler):
         def on_any_event(self, event):
             if event.is_directory:
@@ -30,7 +29,8 @@ def monitor():
                  print (f"\t\t\tDeleted file: {event.src_path} - Time:{time.ctime()}")
 
     observer = Observer()
-    observer.schedule(MonitorAlteracoes(), diretorio_monitorado, recursive=True)
+    monitored_path = os.path.join('/etc/', server_name)
+    observer.schedule(MonitorAlteracoes(), monitored_path, recursive=True)
     observer.start()
     try:
        while True:
