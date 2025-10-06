@@ -1,0 +1,19 @@
+audience:
+  - builder
+leaders:
+  - name: Keidi Francis
+    email: joaolopespambo@gmail.com
+    github: Keidi16
+level: 2
+name: Ksecurity
+pitch: Description for Ksecurity
+repositories:
+  - name: www-project-ksecurity
+    url: https://github.com/OWASP/www-project-ksecurity
+    description: OWASP Foundation Web Repository
+tags:
+  - custom-tag-1
+  - custom-tag-2
+  - custom-tag-3
+type: documentation
+website: https://owasp.org/www-project-ksecurity
